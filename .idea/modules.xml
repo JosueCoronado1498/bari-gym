@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/barigym.iml" filepath="$PROJECT_DIR$/.idea/barigym.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/bari-gym.iml" filepath="$PROJECT_DIR$/.idea/bari-gym.iml" />
+      <module fileurl="file://$PROJECT_DIR$/barigym/barigym.iml" filepath="$PROJECT_DIR$/barigym/barigym.iml" />
     </modules>
   </component>
 </project>
