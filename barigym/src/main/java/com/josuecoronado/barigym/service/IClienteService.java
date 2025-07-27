@@ -4,7 +4,7 @@ import com.josuecoronado.barigym.model.Cliente;
 
 import java.util.List;
 
-public interface IServiceCliente {
+public interface IClienteService {
 
     //crear un cliente
     public void saveCliente(Cliente cliente);
