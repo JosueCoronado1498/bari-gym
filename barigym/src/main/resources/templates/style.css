@@ -1,0 +1,88 @@
+/* Fondo general y tipografía */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+/* Título principal */
+h1 {
+    text-align: left;
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: #343a40;
+}
+
+/* Navegación */
+.nav-pills .nav-link {
+    color: #495057;
+    font-weight: 500;
+    transition: background-color 0.3s;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.nav-pills .nav-link:hover {
+    background-color: #e2e6ea;
+}
+
+/* Tabla */
+.table {
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.table th {
+    background-color: #e9ecef;
+    color: #495057;
+    font-weight: bold;
+    text-align: center;
+}
+
+.table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Botones de acción */
+.btn-sm {
+    margin-right: 5px;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    border-color: #ffc107;
+    color: #212529;
+}
+
+.btn-warning:hover {
+    background-color: #e0a800;
+    border-color: #d39e00;
+    color: #fff;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .table th, .table td {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .nav-pills .nav-link {
+        font-size: 14px;
+    }
+}
