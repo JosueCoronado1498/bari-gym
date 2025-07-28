@@ -1,28 +1,41 @@
-# Bari GYM - Gestión de Clientes
+# 🏋️‍♂️ Bari GYM - Gestión de Clientes
 
-Este proyecto es una aplicación web básica para gestionar clientes, creada con **Spring Boot** y **Thymeleaf**.
+Aplicación web simple para gestionar clientes de un gimnasio. Permite crear, listar, editar y eliminar registros de clientes de forma rápida y amigable.
 
-## Características
-
-- Listar clientes
-- Crear nuevos clientes
-- Editar clientes existentes
-- Eliminar clientes
-
-## Tecnologías
+## 🚀 Tecnologías Utilizadas
 
 - Java 17+
-- Spring Boot (Web, Thymeleaf, Data JPA)
-- Thymeleaf para renderizado de vistas
-- Base de datos H2 / MySQL / (la que uses)
-- Maven o Gradle como sistema de build
+- Spring Boot (Web, Data JPA, Thymeleaf)
+- Thymeleaf (para vistas HTML)
+- H2 / MySQL (según configuración)
+- Bootstrap 4.5 (estilos)
+- Maven
+- HTML, CSS
 
-## Estructura del proyecto
+## 🗂️ Estructura del Proyecto
+```text
+com.josuecoronado.barigym
+├── controller        -> Controladores MVC
+├── model             -> Entidades JPA
+├── service           -> Interfaces y lógica de negocio
+└── resources
+├── templates     -> Vistas Thymeleaf (.html)
+└── static        -> Recursos estáticos (CSS, JS, imágenes)
+```
 
-- `com.josuecoronado.barigym.controller` - Controladores web (MVC)
-- `com.josuecoronado.barigym.model` - Entidades / Modelos
-- `com.josuecoronado.barigym.service` - Lógica de negocio / servicios
-- `src/main/resources/templates` - Plantillas Thymeleaf (.html)
-- `src/main/resources/static` - Recursos estáticos (CSS, JS, imágenes)
+## 🧩 Funcionalidades
+
+✅ Listar todos los clientes  
+✅ Crear un nuevo cliente  
+✅ Editar un cliente existente  
+✅ Eliminar un cliente
+
+## 🖥️ Cómo Ejecutar
+
+1. Clonar el repositorio:
+   ```bash
+   git clone https://github.com/JosueCoronado1498/bari-gym.git
+   cd barigym
+   ```
 
 
